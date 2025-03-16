@@ -28,15 +28,15 @@ class _WhtsappHpState extends State<WhtsappHp> {
     ],
     // Actions for the "Updates" tab
     [
-      IconButton(icon: Icon(Icons.refresh), onPressed: () {}),
-      IconButton(icon: Icon(Icons.settings), onPressed: () {}),
+      IconButton(icon: Icon(Icons.search), onPressed: () {}),
+      IconButton(icon: Icon(Icons.more_vert), onPressed: () {}),
     ],
     // Actions for the "Communities" tab
-    [IconButton(icon: Icon(Icons.group_add), onPressed: () {})],
+    [IconButton(icon: Icon(Icons.more_vert), onPressed: () {})],
     // Actions for the "Calls" tab
     [
-      IconButton(icon: Icon(Icons.add_call), onPressed: () {}),
-      IconButton(icon: Icon(Icons.video_call), onPressed: () {}),
+      IconButton(icon: Icon(Icons.search), onPressed: () {}),
+      IconButton(icon: Icon(Icons.more_vert), onPressed: () {}),
     ],
   ];
   int _selectedIndex = 0;
@@ -63,6 +63,7 @@ class _WhtsappHpState extends State<WhtsappHp> {
       ),
       body: _pages[_selectedIndex],
       bottomNavigationBar: BottomNavigationBar(
+        backgroundColor: Colors.white,
         selectedItemColor: Colors.green,
         unselectedItemColor: Colors.grey,
         items: [

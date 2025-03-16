@@ -10,6 +10,6 @@ class UpdatePage extends StatefulWidget {
 class _UpdatePageState extends State<UpdatePage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold();
   }
 }

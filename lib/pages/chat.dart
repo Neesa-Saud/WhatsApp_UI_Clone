@@ -43,24 +43,34 @@ class _HomeWidgetState extends State<HomeWidget> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: ListView.builder(
-        itemCount: chats.length,
-        itemBuilder: (context, index) {
-          return ListTile(
-            leading: CircleAvatar(
-              backgroundImage: NetworkImage(chats[index]["avatar"]!),
+      body: Container(
+        color: Colors.white,
+        child: Column(
+          children: [
+            Divider(),
+            Expanded(
+              child: ListView.builder(
+                itemCount: chats.length,
+                itemBuilder: (context, index) {
+                  return ListTile(
+                    leading: CircleAvatar(
+                      backgroundImage: NetworkImage(chats[index]["avatar"]!),
+                    ),
+                    title: Text(
+                      chats[index]["name"]!,
+                      style: TextStyle(fontWeight: FontWeight.bold),
+                    ),
+                    subtitle: Text(chats[index]["message"]!),
+                    trailing: Text(
+                      chats[index]["time"]!,
+                      style: TextStyle(color: Colors.grey),
+                    ),
+                  );
+                },
+              ),
             ),
-            title: Text(
-              chats[index]["name"]!,
-              style: TextStyle(fontWeight: FontWeight.bold),
-            ),
-            subtitle: Text(chats[index]["message"]!),
-            trailing: Text(
-              chats[index]["time"]!,
-              style: TextStyle(color: Colors.grey),
-            ),
-          );
-        },
+          ],
+        ),
       ),
     );
   }
