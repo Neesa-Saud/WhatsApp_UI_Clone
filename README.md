@@ -1,12 +1,24 @@
 WhatsApp UI Clone (Non-Responsive) 📱
-This project is a non-responsive UI clone of WhatsApp, developed using Flutter. It includes basic layouts for Chats, Updates, Communities, and Calls pages, mimicking the interface of WhatsApp.
+<br>
+This project is a non-responsive UI clone of WhatsApp, developed using Flutter.
+<br>
+It includes basic layouts for Chats, Updates, Communities, and Calls pages, mimicking the interface of WhatsApp.
+<br>
 Project Structure 🗂️
+<br>
 lib/
-├── default.dart            # Default page UI
-├── pages/
-│   ├── call.dart          # Call page UI
-│   ├── chat.dart          # Chat page UI
-│   ├── community.dart     # Community page UI
-│   ├── update.dart        # Update page UI
-└── main.dart              # Main entry point of the app
+<br>
+default.dart            # Default page UI
+<br>
+pages/
+<br>
+call.dart          # Call page UI
+<br>
+chat.dart          # Chat page UI
+<br>
+community.dart     # Community page UI
+<br>
+update.dart        # Update page UI
+<br>
+main.dart            # Main entry point of the app
 
