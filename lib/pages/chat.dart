@@ -10,36 +10,37 @@ class HomeWidget extends StatefulWidget {
 class _HomeWidgetState extends State<HomeWidget> {
   final List<Map<String, String>> chats = [
     {
-      "name": "Narad Saud",
-      "message": "K ho bhaisaa",
+      "name": "Rajesh Kumar",
+      "message": "What's up?",
       "time": "10:30 AM",
       "avatar": "https://via.placeholder.com/50",
     },
     {
-      "name": "Geeta Saud",
-      "message": "Ma sanga majaar garnay kaam na gar",
+      "name": "Amit Singh",
+      "message": "See you soon!",
       "time": "9:45 AM",
       "avatar": "https://via.placeholder.com/50",
     },
     {
-      "name": "Daddy",
-      "message": "A+ chaheeyo malae ta",
+      "name": "Priya Sharma",
+      "message": "Can't wait to meet!",
       "time": "8:20 AM",
       "avatar": "https://via.placeholder.com/50",
     },
     {
-      "name": "Mummy",
-      "message": "Gyaanu khana khaayaa hai",
+      "name": "Sita Devi",
+      "message": "Hope you have a great day!",
       "time": "Yesterday",
       "avatar": "https://via.placeholder.com/50",
     },
     {
-      "name": "Meri Jaan❤️ ",
-      "message": "Merey Baabu ney thaana thaayaa 😍",
+      "name": "Vikram Yadav",
+      "message": "Long time no see!",
       "time": "Just now",
       "avatar": "https://via.placeholder.com/50",
     },
   ];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

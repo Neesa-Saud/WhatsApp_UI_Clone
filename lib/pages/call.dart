@@ -10,27 +10,27 @@ class CallPage extends StatefulWidget {
 class _CallPageState extends State<CallPage> {
   final List<Map<String, String>> calls = [
     {
-      "name": "Narad Saud",
+      "name": "Person5",
       "time": "10:30 AM",
       "avatar": "https://via.placeholder.com/50",
     },
     {
-      "name": "Geeta Saud",
+      "name": "Person4",
       "time": "9:45 AM",
       "avatar": "https://via.placeholder.com/50",
     },
     {
-      "name": "Daddy",
+      "name": "Person3",
       "time": "8:20 AM",
       "avatar": "https://via.placeholder.com/50",
     },
     {
-      "name": "Mummy",
+      "name": "Person2",
       "time": "Yesterday",
       "avatar": "https://via.placeholder.com/50",
     },
     {
-      "name": "Meri Jaan❤️ ",
+      "name": "person1 ",
       "time": "13th march , 12:00 PM",
       "avatar": "https://via.placeholder.com/50",
     },
